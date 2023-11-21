@@ -1,7 +1,7 @@
-import Link from "next/link";
-import classes from "./post-item.module.css";
 import { Post } from "@/types";
 import Image from "next/image";
+import Link from "next/link";
+import classes from "./post-item.module.css";
 
 const PostItem = ({ post }: { post: Post }) => {
   const { title, image, excerpt, date, slug } = post;
